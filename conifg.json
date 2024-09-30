@@ -1,0 +1,6 @@
+{
+  "learning_rate": 0.001,
+  "epochs": 10,
+  "data_path": "datasets/training_data.csv",
+  "model_output_path": "./brain_hacking_model.h5"
+}
