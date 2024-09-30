@@ -6,16 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import os
-def prepare_data(filename):
-    X = []
-    y = []
-    with open(filename, 'r') as file:
-        reader = csv.reader(file)
-        next(reader)  # ヘッダーのSKIP
-        for row in reader:
-            X.append(row[0])
-            y.append(row[1])
-    return X, y
+
 def prepare_data(filename):
     X = []
     y = []
